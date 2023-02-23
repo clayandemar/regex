@@ -17,48 +17,23 @@ Quantifiers
 
 OR Operator
 
-Character Classes
-
-Flags
-
-Grouping and Capturing
-
-Bracket Expressions
-
-Greedy and Lazy Match
-
-Boundaries
-
 Back-references
 
-Look-ahead and Look-behind
+Look-ahead
 
 # Regex Components
 
-
 Qualifications: The SSN is 9 digits long. It's broken up into 3 sections by -. Section 1 has 3 numbers, section 2 has 2 numbers, and section 3 has 4 numbers.
 
-Anchors
+Anchors: The ^ and $ are the anchors in a regex. The ^ is at the beginning and $ is at the end.
 
-Quantifiers
+Quantifiers: {x} says it has to have x number of digits present. The "d" before the bracket means it has to be a numeric-digit.
 
-OR Operator
+OR Operator: | means the "or" in a statement. !666|000| means it can't have 666 or 000.
 
-Character Classes
+Back-references: \\ are used to refer to a previous matched expression. The \\ says that the previous rule is no longer used in the next part of the expression
 
-Flags
-
-Grouping and Capturing
-
-Bracket Expressions
-
-Greedy and Lazy Match
-
-Boundaries
-
-Back-references
-
-Look-ahead and Look-behind
+Look-ahead: ?! is the negative look-ahead which enforces the absence of the following expression. ?!666|000| makes sure the SSN doesn't have 666 or 000.
 
 
 Author
