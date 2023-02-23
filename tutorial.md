@@ -5,11 +5,11 @@ What is a regex and why do we use them? A regex is a string sequence of numbers,
 
 ## Summary
 Social Security Numbers follow a small set of rules. Some websites/organizations need to validate and use your SSN for many different reasons (you should always be careful about giving out your SSN). For example, if you are contacting your bank about your account balance, they need your SSN to verify it is you that is trying to get into your account and not someone else. Therefore, many banking companies will use a regex similar or identical to this one for their website:
-regex = "^(?!666|000|9\\d{2})\\d{3}-(?!00)\\d{2}-(?!0{4})\\d{4}$";
+## regex = "^(?!666|000|9\\d{2})\\d{3}-(?!00)\\d{2}-(?!0{4})\\d{4}$";
 In this article, I will talk about the functionality of the characters within this expression.
 
 ## Table of Contents
-[link text](#Qualifications) 
+[Qualifications](#Qualifications) 
 
 [link text](#Anchors) 
 
