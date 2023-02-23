@@ -39,7 +39,7 @@ The ^ and $ are the anchors in a regex. The ^ is at the beginning and $ is at th
 \\ are used to refer to a previous matched expression. The \\ says that the previous rule is no longer used in the next part of the expression. 
 
 # Look-ahead: 
-?! is the negative look-ahead which enforces the absence of the following expression. ?!666|000| makes sure the SSN doesn't have 666 or 000.
+?! is the negative look-ahead which enforces the absence of the following expression. ?!666|000| makes sure the SSN doesn't have 666 or 000. It is used ?!666|000|9, (?!00), and (?!0{4}) above.
 
 
 Clay Andemar
