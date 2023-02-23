@@ -30,13 +30,13 @@ The SSN is 9 digits long. It's broken up into 3 sections by -. Section 1 has 3 n
 The ^ and $ are the anchors in a regex. The ^ is at the beginning and $ is at the end.
 
 # Quantifiers: 
-{x} says it has to have x number of digits present. The "d" before the bracket means it has to be a numeric-digit.
+{x} says it has to have x number of digits present. The "d" before the bracket means it has to be a numeric-digit. It's used in d{2}, d{3}, d{2}, {4}, and d{4} above.
 
 # OR-Operator: 
-| means the "or" in a statement. !666|000| means it can't have 666 or 000.
+| means the "or" in a statement. 666|000| means 666 or 000.
 
 # Back-references: 
-\\ are used to refer to a previous matched expression. The \\ says that the previous rule is no longer used in the next part of the expression
+\\ are used to refer to a previous matched expression. The \\ says that the previous rule is no longer used in the next part of the expression. 
 
 # Look-ahead: 
 ?! is the negative look-ahead which enforces the absence of the following expression. ?!666|000| makes sure the SSN doesn't have 666 or 000.
