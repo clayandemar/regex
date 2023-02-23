@@ -21,7 +21,7 @@ In this article, I will talk about the functionality of the characters within th
 
 [Look-ahead](#Look-ahead) 
 
-## Regex Components
+# Regex Components
 
 # Qualifications: 
 The SSN is 9 digits long. It's broken up into 3 sections by -. Section 1 has 3 numbers, section 2 has 2 numbers, and section 3 has 4 numbers.
@@ -43,4 +43,4 @@ The ^ and $ are the anchors in a regex. The ^ is at the beginning and $ is at th
 
 
 Clay Andemar
-[link](https://clayandemar.github.io/regex/)
+[link](https://github.com/clayandemar/regex)
