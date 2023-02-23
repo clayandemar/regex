@@ -11,15 +11,15 @@ In this article, I will talk about the functionality of the characters within th
 ## Table of Contents
 [Qualifications](#Qualifications) 
 
-[link text](#Anchors) 
+[Anchors](#Anchors) 
 
-[link text](#Quantifiers) 
+[Quantifiers](#Quantifiers) 
 
-[link text](#OR-Operator) 
+[OR-Operator](#OR-Operator) 
 
-[link text](#Back-references) 
+[Back-references](#Back-references) 
 
-[link text](#Look-ahead) 
+[Look-ahead](#Look-ahead) 
 
 ## Regex Components
 
